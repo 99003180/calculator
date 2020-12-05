@@ -34,7 +34,7 @@ int main() {
   return 0;
 }
 /* Write all the test functions */
-void multiplication(void) {
+void test_sum(void) {
   CU_ASSERT(12== sum(6,6));
   
   /* Dummy fail*/
