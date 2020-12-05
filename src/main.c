@@ -1,4 +1,4 @@
-#include "test_calculator.h"
+#include "calculator.h"
 
 int main(void)
 {
