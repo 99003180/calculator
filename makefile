@@ -1,10 +1,8 @@
-SRC =
-src/calculator.c\
+SRC = src/calculator.c\
 unity/test_calculator.c\
 src/main.c
 
-INC = 
--Iinc\
+INC = -Iinc
 
 
 PROJECT_NAME = calculator.out
