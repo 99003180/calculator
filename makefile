@@ -6,11 +6,11 @@ BUILD = build
 # All source code files
 
 SRC = src/main.c\
-src/calc.c\
+src/calculator.c\
 # All test source files
 
-TEST_SRC = src/calc.c\
-test/test_calc.c
+TEST_SRC = src/calculator.c\
+unity/test_calculator.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 # All include folders with header files
