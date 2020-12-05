@@ -9,8 +9,7 @@ SRC = src/main.c\
 src/calculator.c\
 # All test source files
 
-TEST_SRC = src/calculator.c\
-unity/test_calculator.c
+TEST_SRC = unity/test_calculator.c
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 # All include folders with header files
