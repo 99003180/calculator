@@ -19,7 +19,7 @@ int main() {
 /* Note: Do not edit END */
 
 /* Add your test functions in this format for testing*/
-  CU_add_test(suite, "addition", test_sum);
+  CU_add_test(suite, "sum", test_sum);
   
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
@@ -35,7 +35,7 @@ int main() {
 }
 /* Write all the test functions */
 void test_sum(void) {
-  CU_ASSERT(12== sum(6,6));
+  CU_ASSERT(12 == sum(6,6));
   
   /* Dummy fail*/
   
