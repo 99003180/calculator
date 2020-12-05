@@ -1,7 +1,7 @@
-SRC = unity/unity.c\
+SRC =
 src/calculator.c\
-test_calculator.c\
-main.c
+unity/test_calculator.c\
+src/main.c
 
 INC = 
 -Iinc\
