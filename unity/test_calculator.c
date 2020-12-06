@@ -7,7 +7,8 @@
 
 /* Prototypes for all the test functions */
 void test_multiplication(void);
-//void test_subtraction(void);
+void test_subtraction(void);
+void test_addition(void);
 
 
 /* Start of the application test */
@@ -21,7 +22,8 @@ int main() {
 
 /* Add your test functions in this format for testing*/
   CU_add_test(suite, "mult", test_multiplication);
-//  CU_add_test(suite, "sub", test_subtraction);
+  CU_add_test(suite, "sub", test_subtraction);
+  CU_add_test(suite, "add", test_addition);
 
 
 /* Note: Do not edit START*/
@@ -48,11 +50,16 @@ void test_multiplication(void) {
   CU_ASSERT(15 == mult(4,3));
 }
 
-/*void test_subtraction(void) {
+void test_subtraction(void) {
   CU_ASSERT(5== sub(10,5));
   CU_ASSERT(2  == sub(7,5));
   CU_ASSERT( 1 == sub(3,-2));
   CU_ASSERT(3 == sub(6,3));
 
-  }/* Dummy fail*/
+  }
+void test_addition(void) {
+  CU_ASSERT(6== add(4,2));
+  CU_ASSERT(200  == add(100,100));
+
+  }
 
