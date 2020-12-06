@@ -54,6 +54,5 @@ void test_multiplication(void) {
   CU_ASSERT( 1 == sub(3,-2));
   CU_ASSERT(3 == sub(6,3));
 
-  /* Dummy fail*/
-}
-*/
+  }/* Dummy fail*/
+
