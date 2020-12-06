@@ -4,7 +4,7 @@
 #include <stdio.h>
 void add();
 void sub();
-void mult();
+double mult(int ,int);
 void div();
 void rev();
 void DecToBin();
