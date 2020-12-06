@@ -13,19 +13,26 @@ int main()
     scanf("%d",&ch);
     switch(ch)
     {
-        case 1: add();
+        case 1: printf("\nPlease enter first numb   : ");
+		scanf("%d", &a);
+		printf("Please enter second number: ");
+		scanf("%d", &b);
+		double total=add(a,b);
+		printf("Addition is %lf",total); 
                 break;
-        case 2: sub();
+        case 2: printf("\nPlease enter first numb   : ");
+		scanf("%d", &a);
+		printf("Please enter second number: ");
+		scanf("%d", &b);
+		int total=sub(a,b);
+		printf("Sub is %lf",total); 
                 break;
-        case 3:
-		
-				
-				printf("\nPlease enter first numb   : ");
-				scanf("%d", &a);
-				printf("Please enter second number: ");
-				scanf("%d", &b);
-				double total=mult(a,b);
-				printf("Mult is %lf",total); 
+        case 3: printf("\nPlease enter first numb   : ");
+		scanf("%d", &a);
+		printf("Please enter second number: ");
+		scanf("%d", &b);
+		double total=mult(a,b);
+		printf("Mult is %lf",total); 
                 break;
         case 4: div();
                 break;
