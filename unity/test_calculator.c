@@ -37,18 +37,18 @@ int main() {
   return 0;
 }
 /* Write all the test functions */
-void mult(void) {
-  CU_ASSERT(12== mult(6,2));
-  CU_ASSERT(21== mult(7,3));
-  CU_ASSERT(75==mult(15,5));
+void test_multiplication(void) {
+  CU_ASSERT(12 == mult(6,2));
+  CU_ASSERT(21 == mult(7,3));
+  CU_ASSERT(75 == mult(15,5));
   CU_ASSERT(81 == mult(9,9));
-  CU_ASSERT( 20== mult(10,2));
+  CU_ASSERT(20 == mult(10,2));
 
   /* Dummy fail*/
   CU_ASSERT(15 == mult(4,3));
 }
 
-void sub(void) {
+void test_subtraction(void) {
   CU_ASSERT(5== sub(10,5));
   CU_ASSERT(2  == sub(7,5));
   CU_ASSERT( 1 == sub(3,-2));
