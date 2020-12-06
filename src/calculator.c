@@ -14,39 +14,31 @@ double mult(int operand1, int operand2)
     return operand1*operand2;
 }
 
-void div()
+int div(int operand1,int operand2)
 {
-    int numer,denom, q=0;
-    printf("\nPlease enter numerator : ");
-    scanf("%d",&numer);
-    printf("\nPlease enter denominator : ");
-    scanf("%d",&denom);
-    if(denom==0)
+    
+    if(operand2==0)
     {
-        printf("Divide by 0 Error\n");
+        return 0;
     }
     else
     {
-        q = numer/denom;
-        printf("\nDivision of entered numbers = %d\n",q);
+        return operand1/operand2;
     }
 }
 
-void rev()
+int rev(int num)
 {
-    int num, total=0,r=0;
-    printf("Enter the number to be reversed\n");
-    scanf("%d",&num);
+    int reverse=0,r=0;  
     int temp=num;
     while(num>0)
     {
         r=num%10;
-        total=total*10+r;
+        reverse=reverse*10+r;
         num=num/10;
     }
-    printf("Reverse of %d is %d ",temp,total);
+    return reverse;
 }
-
 void DecToBin()
 {
     int dec,i;
