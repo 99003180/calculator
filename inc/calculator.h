@@ -5,8 +5,8 @@
 double add(int ,int);
 int sub(int ,int);
 double mult(int ,int);
-void div();
-void rev();
+int div(int,int);
+int rev(int);
 void DecToBin();
 //void logo();
 void matrix_sum();
