@@ -15,7 +15,14 @@ int main()
                 break;
         case 2: sub();
                 break;
-        case 3: mult();
+        case 3:int a,b;
+				double mul=0;
+				printf("\nPlease enter first numb   : ");
+				scanf("%d", &a);
+				printf("Please enter second number: ");
+				scanf("%d", &b);
+				double total=mult(a,b);
+				printf("Mult is %lf",total); 
                 break;
         case 4: div();
                 break;
