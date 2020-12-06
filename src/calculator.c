@@ -26,16 +26,9 @@ void sub()
     c = a - b;
     printf("\n%d - %d = %d\n", a, b, c);
 }
-void mult()
+double mult(int operand1, int operand2)
 {
-    int a,b;
-    double mul=0;
-    printf("\nPlease enter first numb   : ");
-    scanf("%d", &a);
-    printf("Please enter second number: ");
-    scanf("%d", &b);
-    mul=a*b;
-    printf("\nMultiplication of entered numbers = %lf\n",mul);
+    return operand1*operand2;
 }
 
 void div()
