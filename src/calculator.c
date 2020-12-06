@@ -1,30 +1,13 @@
 #include<calculator.h>
 
-void add()
+double add(int operand1,int operand2)
 {
-    int n, number;
-    double total=0;
-    printf("\nEnter the number of elements you want to add:");
-    scanf("%d",&n);
-    printf("Please enter %d numbers one by one: \n",n);
-   for(int i=0;i<n;i++)
-   {
-        scanf("%d",&number);
-        total=total+number;
-
-   }
-    printf("Sum of %d numbers = %lf \n",n,total);
+    return operand1+operand2;
 }
 
-void sub()
+int sub(int operand1,int operand2)
 {
-    int a,b,c;
-    printf("\nPlease enter first number  : ");
-    scanf("%d", &a);
-    printf("Please enter second number : ");
-    scanf("%d", &b);
-    c = a - b;
-    printf("\n%d - %d = %d\n", a, b, c);
+    return operand1-operand2;
 }
 double mult(int operand1, int operand2)
 {
