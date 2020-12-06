@@ -1,5 +1,5 @@
-#ifndef __FUNCTION_H__
-#define __FUNCTION_H__
+#ifndef __CALCULATOR_H__
+#define __CALCULATOR_H__
 
 #include <stdio.h>
 void add();
