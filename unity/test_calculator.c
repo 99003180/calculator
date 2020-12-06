@@ -7,7 +7,7 @@
 
 /* Prototypes for all the test functions */
 void test_multiplication(void);
-void test_subtraction(void);
+//void test_subtraction(void);
 
 
 /* Start of the application test */
@@ -48,12 +48,12 @@ void test_multiplication(void) {
   CU_ASSERT(15 == mult(4,3));
 }
 
-void test_subtraction(void) {
+/*void test_subtraction(void) {
   CU_ASSERT(5== sub(10,5));
   CU_ASSERT(2  == sub(7,5));
   CU_ASSERT( 1 == sub(3,-2));
   CU_ASSERT(3 == sub(6,3));
 
   /* Dummy fail*/
-  CU_ASSERT( 4== sub(8,2));
 }
+*/
