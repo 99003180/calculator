@@ -127,7 +127,7 @@ void matrix_sum()
         }
 }
 
-void inv()
+/*void inv()
 {
     int x;
     printf("Enter the number\n");
@@ -136,8 +136,9 @@ void inv()
     y=pow(x,-1);
     printf("Inverse of given value is %lf:",y);
 }
+*/
 
-void square()
+/*void square()
 {
     int x;
     printf("Enter the number\n");
@@ -145,4 +146,5 @@ void square()
     int y=sqrt(x);
     printf("Square root of %d is %d ",x,y);
 }
+*/
 
