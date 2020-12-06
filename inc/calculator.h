@@ -1,6 +1,15 @@
-#ifndef __CALCULATOR_H__
-#define __CALCULATOR_H__
-int sum(int a, int b);
-int sub(int a, int b);
+#ifndef __FUNCTION_H__
+#define __FUNCTION_H__
 
+#include <stdio.h>
+void add();
+void sub();
+void mult();
+void div();
+void rev();
+void DecToBin();
+//void logo();
+void matrix_sum();
+void inv();
+void square();
 #endif
