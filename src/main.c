@@ -6,6 +6,8 @@
 int main()
 {
     int ch;
+    int a,b;
+	
     printf("Enter your choice\n");
     printf(" 1.Addition\n 2.Subtraction\n 3.Multiplication\n 4.Division\n 5.Reverse\n 6.Decimal to Binary\n 7.Matrix Addition\n 8.Inverse\n 9.Square Root");
     scanf("%d",&ch);
@@ -15,8 +17,9 @@ int main()
                 break;
         case 2: sub();
                 break;
-        case 3:int a,b;
-				double mul=0;
+        case 3:
+		
+				
 				printf("\nPlease enter first numb   : ");
 				scanf("%d", &a);
 				printf("Please enter second number: ");
