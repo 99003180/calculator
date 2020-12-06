@@ -21,7 +21,7 @@ int main() {
 
 /* Add your test functions in this format for testing*/
   CU_add_test(suite, "mult", test_multiplication);
-  CU_add_test(suite, "sub", test_subtraction);
+//  CU_add_test(suite, "sub", test_subtraction);
 
 
 /* Note: Do not edit START*/
