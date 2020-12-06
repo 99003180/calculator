@@ -47,19 +47,21 @@ void test_multiplication(void) {
   CU_ASSERT(20 == mult(10,2));
 
   /* Dummy fail*/
-  CU_ASSERT(15 == mult(4,3));
+  //CU_ASSERT(15 == mult(4,3));
 }
 
 void test_subtraction(void) {
   CU_ASSERT(5== sub(10,5));
   CU_ASSERT(2  == sub(7,5));
-  CU_ASSERT( 1 == sub(3,-2));
+ // CU_ASSERT( 1 == sub(3,-2));
   CU_ASSERT(3 == sub(6,3));
 
   }
 void test_addition(void) {
   CU_ASSERT(6== add(4,2));
   CU_ASSERT(200  == add(100,100));
+   CU_ASSERT(131070  == add(65535,65535));
+  
 
   }
 
