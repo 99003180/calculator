@@ -2,8 +2,8 @@
 #define __CALCULATOR_H__
 
 #include <stdio.h>
-void add();
-void sub();
+double add(int ,int);
+int sub(int ,int);
 double mult(int ,int);
 void div();
 void rev();
