@@ -25,10 +25,11 @@ int main()
                 break;
         case 7: matrix_sum();
                 break;
-        case 8: inv();
+    /*    case 8: inv();
                 break;
         case 9 :square();
                 break;
+                */
     }
     return 0;
 }
