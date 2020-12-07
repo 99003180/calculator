@@ -128,4 +128,8 @@ int fact(int num)
     }
     return num*fact(num-1);
 }
+int modulus(int operand1,int operand2)
+{
+    return operand1%operand2;
+}
 
