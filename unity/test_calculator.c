@@ -11,6 +11,8 @@ void test_subtraction(void);
 void test_addition(void);
 void test_division(void);
 void test_reverse(void);
+void test_factorial(void);
+void test_modulus(void);
 
 /* Start of the application test */
 int main() {
@@ -27,6 +29,9 @@ int main() {
   CU_add_test(suite, "add", test_addition);
    CU_add_test(suite, "div", test_division);
    CU_add_test(suite, "add", test_reverse);
+  CU_add_test(suite, "fact", test_factorial);
+CU_add_test(suite, "modulus", test_modulus);
+
 
 
 
@@ -66,18 +71,32 @@ void test_addition(void) {
   CU_ASSERT(6== add(4,2));
   CU_ASSERT(200  == add(100,100));
    CU_ASSERT(131070  == add(65535,65535));
+  CU_ASSERT(-100 == add(-50,-50));
+  CU_ASSERT(0 == add(50,-50));
   
 
   }
 void test_division(void) {
   CU_ASSERT(10 == div(100,10));
   CU_ASSERT(0  == div(7,0));
- // CU_ASSERT( 1 == sub(3,-2));
   CU_ASSERT(1 == div(6,6));
 
   }
 void test_reverse(void) {
   CU_ASSERT(123 == rev(321));
+  CU_ASSERT(9367 == rev(7639));
+  
 
+  }
+
+void test_factorial(void) {
+  CU_ASSERT(1 == fact(1));
+  CU_ASSERT(120 == fact(5));
+
+  }
+void test_modulus(void) {
+  CU_ASSERT(0 == modulus(100,10));
+  CU_ASSERT(2  == modulus(10,8));
+ 
   }
 
