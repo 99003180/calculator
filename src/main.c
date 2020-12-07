@@ -9,7 +9,7 @@ int main()
     int a,b;
 	
     printf("Enter your choice\n");
-    printf(" 1.Addition\n 2.Subtraction\n 3.Multiplication\n 4.Division\n 5.Reverse\n 6.Decimal to Binary\n 7.Matrix Addition\n 8.Factorial\n 9.Square Root");
+    printf(" 1.Addition\n 2.Subtraction\n 3.Multiplication\n 4.Division\n 5.Reverse\n 6.Decimal to Binary\n 7.Matrix Addition\n 8.Factorial\n 9.Modulus\n");
     scanf("%d",&ch);
     switch(ch)
     {
@@ -55,9 +55,14 @@ int main()
 		int res1=fact(a);
 		printf("Factorial is %d",res1);
                 break;
-        /*case 9 :square();
+        case 9 :printf("\nPlease enter first numb   : ");
+		scanf("%d", &a);
+		printf("Please enter second number: ");
+		scanf("%d", &b);
+		int total4=modulus(a,b);
+		printf("Mod is %d",total4);
                 break;
-                */
+        
     }
    // return 0;
 }
