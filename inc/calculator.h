@@ -11,6 +11,7 @@ void DecToBin();
 //void logo();
 void matrix_sum();
 int fact(int);
+int modulus(int,int);
 //void inv();
 //void square();
 #endif
