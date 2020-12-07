@@ -10,6 +10,7 @@ int rev(int);
 void DecToBin();
 //void logo();
 void matrix_sum();
+int fact(int);
 //void inv();
 //void square();
 #endif
