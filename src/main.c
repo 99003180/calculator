@@ -9,7 +9,7 @@ int main()
     int a,b;
 	
     printf("Enter your choice\n");
-    printf(" 1.Addition\n 2.Subtraction\n 3.Multiplication\n 4.Division\n 5.Reverse\n 6.Decimal to Binary\n 7.Matrix Addition\n 8.Inverse\n 9.Square Root");
+    printf(" 1.Addition\n 2.Subtraction\n 3.Multiplication\n 4.Division\n 5.Reverse\n 6.Decimal to Binary\n 7.Matrix Addition\n 8.Factorial\n 9.Square Root");
     scanf("%d",&ch);
     switch(ch)
     {
@@ -50,9 +50,12 @@ int main()
                 break;
         case 7: matrix_sum();
                 break;
-    /*    case 8: inv();
+        case 8: printf("Enter the number\n");
+		scanf("%d",&a);
+		int res1=fact(a);
+		printf("Factorial is %d",res1);
                 break;
-        case 9 :square();
+        /*case 9 :square();
                 break;
                 */
     }
