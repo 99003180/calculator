@@ -105,7 +105,8 @@ void matrix_sum()
     printf("Inverse of given value is %lf:",y);
 }
 int a,b;
-a=5;
+a=5;c=9;
+product=a*b;
 b=9;
 */
 
