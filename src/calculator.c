@@ -108,6 +108,7 @@ int a,b;
 a=5;c=9;
 product=a*b;
 b=9;
+printf("%d",product);
 */
 
 /*void square()
