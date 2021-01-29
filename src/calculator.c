@@ -104,6 +104,9 @@ void matrix_sum()
     y=pow(x,-1);
     printf("Inverse of given value is %lf:",y);
 }
+int a,b;
+a=5;
+b=9;
 */
 
 /*void square()
